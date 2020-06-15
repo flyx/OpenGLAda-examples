@@ -131,6 +131,13 @@ package body Maths is
     begin
         return Sqrt (V (X) * V (X) + V (Y) * V (Y) + V (Z) * V (Z));
     end Length;
+    
+    --  ------------------------------------------------------------------------
+
+    function Norm (V : GL.Types.Singles.Vector3) return GL.Types.Single is
+    begin
+       return Length (V);
+    end Norm;
 
     --  ------------------------------------------------------------------------
 
