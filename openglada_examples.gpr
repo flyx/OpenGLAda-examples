@@ -16,6 +16,7 @@ aggregate project OpenGLAda_Examples is
       "ogl_tutorials/indexed_model_loading/indexing.gpr",
       "ogl_tutorials/misc05_picking_easy/misc_05.gpr",
       "open_gl/coloured_elements/element_buffers.gpr",
+	  "open_gl/feedback_query/transform.gpr",
       "open_gl/simple_uniform/simple_uniform.gpr",
       "open_gl/square/coloured_square.gpr",
       "open_gl/very_simple/simple_triangle.gpr",
