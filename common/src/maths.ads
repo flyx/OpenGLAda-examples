@@ -27,9 +27,9 @@ package Maths is
      Ada.Numerics.Generic_Elementary_Functions (GL.Types.Single);
 
    package Vector5_Pointers is new Interfaces.C.Pointers
-     (Size, Vector5, Vector5_Array, Vector5'(others => <>));
+     (Size, Vector5, Vector5_Array, Vector5'(others => 0.0));
    package Vector6_Pointers is new Interfaces.C.Pointers
-     (Size, Vector6, Vector6_Array, Vector6'(others => <>));
+     (Size, Vector6, Vector6_Array, Vector6'(others => 0.0));
 
    function Cube_Root (Value : Single) return Single;
    function Degrees (Angle : Radian) return Degree;

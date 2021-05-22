@@ -1,0 +1,241 @@
+# THIS IS A MACHINE-GENERATED FILE. DO NOT EDIT MANUALLY.
+
+[solution]
+[solution.context]
+solved = true
+[[solution.state]]
+crate = "freetypeada"
+fulfilment = "solved"
+pinned = false
+transitivity = "indirect"
+versions = "~0.1.0"
+[solution.state.release]
+authors = [
+"Felix Krause",
+]
+description = "Thick binding to the FreeType library"
+licenses = "MIT"
+maintainers = [
+"Felix Krause <contact@flyx.org>",
+]
+maintainers-logins = [
+"flyx",
+]
+name = "freetypeada"
+project-files = [
+"freetype.gpr",
+]
+tags = [
+"fonts",
+"rendering",
+]
+version = "0.1.0"
+website = "https://github.com/flyx/FreeTypeAda"
+[solution.state.release.gpr-set-externals]
+FreeType_Linker_Param = "-lfreetype"
+[solution.state.release.origin]
+commit = "4fd90f573dc83a9b23e462520a60eb6a8dd92878"
+url = "git+https://github.com/flyx/FreeTypeAda.git"
+[[solution.state]]
+crate = "gid"
+fulfilment = "solved"
+pinned = false
+transitivity = "indirect"
+versions = "^9.0.0"
+[solution.state.release]
+authors = [
+"Gautier de Montmollin",
+]
+description = "Decoding a broad variety of image formats"
+licenses = "MIT"
+maintainers = [
+"fabien.chouteau@gmail.com",
+]
+maintainers-logins = [
+"zertovitch",
+"Fabien-Chouteau",
+]
+name = "gid"
+project-files = [
+"gid.gpr",
+]
+version = "9.0.0"
+[solution.state.release.gpr-externals]
+Build_Mode = [
+"Debug",
+"Fast_but_checked",
+"Fast",
+"Small",
+"Smallest",
+"Profiling",
+]
+[solution.state.release.origin]
+hashes = [
+"sha512:17722960f65382ce49dfde2ebe24b2adf1cd007ea9f170ec51d35c4a654ac78ddc3c1ba500e764e0c793d6f6aabb2c82a804a5570deb36a199f5b216c2c372e7",
+]
+url = "https://sourceforge.net/projects/gen-img-dec/files/gid_009.zip"
+[[solution.state]]
+crate = "libglfw3"
+fulfilment = "hinted"
+pinned = false
+transitivity = "indirect"
+versions = "^3"
+[[solution.state]]
+crate = "openglada"
+fulfilment = "solved"
+pinned = false
+transitivity = "direct"
+versions = "~0.9.0"
+[solution.state.release]
+authors = [
+"Felix Krause",
+]
+description = "Thick Ada binding for OpenGL"
+licenses = "MIT"
+maintainers = [
+"Felix Krause <contact@flyx.org>",
+]
+maintainers-logins = [
+"flyx",
+]
+name = "openglada"
+project-files = [
+"opengl.gpr",
+]
+tags = [
+"opengl",
+"binding",
+"rendering",
+"graphics",
+]
+version = "0.9.0"
+website = "http://flyx.github.io/OpenGLAda/"
+[solution.state.release.gpr-externals]
+Auto_Exceptions = [
+"enabled",
+"disabled",
+]
+Mode = [
+"debug",
+"release",
+]
+[solution.state.release.gpr-set-externals]
+Windowing_System = "quartz"
+[solution.state.release.origin]
+hashes = [
+"sha512:4deb7effa92ea06c1fc9595700223b8169a85c15c4caf78221d2cfa95205260b5ba6d132d070b3f25d07549a6c9a8cde3b6405631a7d1ff487af8292c44a10e2",
+]
+url = "https://github.com/flyx/OpenGLAda/releases/download/v0.9.0/openglada-0.9.0.tgz"
+[[solution.state]]
+crate = "openglada_glfw"
+fulfilment = "solved"
+pinned = false
+transitivity = "direct"
+versions = "~0.9.0"
+[solution.state.release]
+authors = [
+"Felix Krause",
+]
+description = "GLFW binding for use with OpenGLAda"
+licenses = "MIT"
+maintainers = [
+"Felix Krause <contact@flyx.org>",
+]
+maintainers-logins = [
+"flyx",
+]
+name = "openglada_glfw"
+project-files = [
+"opengl-glfw.gpr",
+]
+tags = [
+"opengl",
+"glfw",
+"binding",
+"gui",
+]
+version = "0.9.0"
+website = "http://flyx.github.io/OpenGLAda/"
+[solution.state.release.origin]
+hashes = [
+"sha512:fc25165caf510898d8c804b0ca4d8f763d49e0bd144ac70a2547f935ee90804b6ea5a1389eee08bb5528546f87eedb5b4e5884360a3a562a57338acea95f0e91",
+]
+url = "https://github.com/flyx/OpenGLAda/releases/download/v0.9.0/openglada_glfw-0.9.0.tgz"
+[[solution.state.release.depends-on]]
+libglfw3 = "^3"
+openglada = "~0.9.0"
+[[solution.state]]
+crate = "openglada_images"
+fulfilment = "solved"
+pinned = false
+transitivity = "direct"
+versions = "~0.9.0"
+[solution.state.release]
+authors = [
+"Felix Krause",
+]
+description = "Image loading library for OpenGLAda"
+licenses = "MIT"
+maintainers = [
+"Felix Krause <contact@flyx.org>",
+]
+maintainers-logins = [
+"flyx",
+]
+name = "openglada_images"
+project-files = [
+"opengl-images.gpr",
+]
+tags = [
+"opengl",
+"rendering",
+"graphics",
+]
+version = "0.9.0"
+website = "http://flyx.github.io/OpenGLAda/"
+[solution.state.release.origin]
+hashes = [
+"sha512:b50ef8e7efb037d23d698f8af470a8a715571348f734411acecaa58e48b2edafe06c5c1a395c616650222ad3a183ead952d89ffebf6be72d11d7fefe1c944e8d",
+]
+url = "https://github.com/flyx/OpenGLAda/releases/download/v0.9.0/openglada_images-0.9.0.tgz"
+[[solution.state.release.depends-on]]
+gid = "^9.0.0"
+openglada = "~0.9.0"
+[[solution.state]]
+crate = "openglada_text"
+fulfilment = "solved"
+pinned = false
+transitivity = "direct"
+versions = "~0.9.0"
+[solution.state.release]
+authors = [
+"Felix Krause",
+]
+description = "Text rendering library for OpenGLAda"
+licenses = "MIT"
+maintainers = [
+"Felix Krause <contact@flyx.org>",
+]
+maintainers-logins = [
+"flyx",
+]
+name = "openglada_text"
+project-files = [
+"opengl-text.gpr",
+]
+tags = [
+"opengl",
+"rendering",
+"fonts",
+]
+version = "0.9.0"
+website = "http://flyx.github.io/OpenGLAda/"
+[solution.state.release.origin]
+hashes = [
+"sha512:9ca805328a927155a1bc7672115d95a757e7ad2529e8a71d7ac6c148e481b624e724c82eb810d6faa403d5a730042723dae7566a207863f53e290a5066b6f438",
+]
+url = "https://github.com/flyx/OpenGLAda/releases/download/v0.9.0/openglada_text-0.9.0.tgz"
+[[solution.state.release.depends-on]]
+freetypeada = "~0.1.0"
+openglada = "~0.9.0"
+
